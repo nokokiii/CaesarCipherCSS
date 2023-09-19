@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "testing";
+  src: url("./Modeggv4-normal.otf") format("opentype");
+}
+
+.jeden {
+  font-family: "testing";
+}
