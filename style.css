@@ -1,8 +1,21 @@
 @font-face {
-  font-family: "testing";
+  font-family: "normal";
   src: url("./Modeggv4-normal.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "move-1";
+    src: url("./Modeggv4-normal\(1\).otf") format("opentype");
+}
+
+.normal {
+  font-family: "normal";
+}
+
 .jeden {
-  font-family: "testing";
+  font-family: "move-1";
+}
+
+.jeden:hover {
+    font-family: "normal";
 }
