@@ -2,12 +2,14 @@
   font-family: "normal";
   src: url("./Modeggv4-normal.otf") format("opentype");
 }
-textarea{
-    font-family: normal, serif;
-}
+
 @font-face {
     font-family: "move-1";
     src: url("./Modeggv4-normal(1).otf") format("opentype");
+}
+
+textarea {
+    font-family: "normal", serif; 
 }
 
 .dropdown {
@@ -31,13 +33,214 @@ textarea{
     z-index: 1;
 }
 
+li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+textarea {
+    font-family: "normal", serif;
+    float: right; 
+    clear: right; 
+    margin-right: 10px; 
+    padding: 5px;
+    resize: none; 
+    border: 1px solid #ccc;
+    width: 200px; 
+}
+
 .font-option {
     padding: 10px;
     text-decoration: none;
     display: block;
     color: #333;
 }
+li:hover{
+    border: 5px solid red;
+}
+.d1:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
 
-.d1:hover ~ textarea{
-    font-family: move-1, serif;
+.d1:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d2:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d2:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d3:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d3:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d4:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d4:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d5:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d5:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d6:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d6:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d7:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d7:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d8:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d8:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d9:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d9:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d10:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d10:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d11:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d11:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d12:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d12:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d13:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d13:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d14:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d14:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d15:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d15:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d16:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d16:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d17:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d17:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d18:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d18:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d19:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d19:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d20:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d20:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d21:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d21:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d22:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d22:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d23:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d23:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d24:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d24:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d25:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d25:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+.d26:hover ~ .decrypt {
+    font-family: "move-1", serif; 
+}
+
+.d26:hover ~ .encode {
+    font-family: "normal", serif; 
+}
+
+textarea::placeholder {
+    font-family: "normal", serif;
 }
