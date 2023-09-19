@@ -1,8 +1,43 @@
 @font-face {
-  font-family: "testing";
+  font-family: "normal";
   src: url("./Modeggv4-normal.otf") format("opentype");
 }
+textarea{
+    font-family: normal, serif;
+}
+@font-face {
+    font-family: "move-1";
+    src: url("./Modeggv4-normal(1).otf") format("opentype");
+}
 
-.jeden {
-  font-family: "testing";
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.font-option {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.d1:hover ~ textarea{
+    font-family: move-1, serif;
 }
