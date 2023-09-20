@@ -14,28 +14,32 @@ textarea {
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .dropbtn {
     background-color: #fff;
     border: 1px solid #ccc;
-    padding: 10px;
     cursor: pointer;
 }
 
 .dropdown-content {
-    display: block;
-    position: absolute;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    min-width: 160px;
-    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 2px solid #ccc;
+    width: 90vw;
 }
 
 li {
     list-style-type: none;
     font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
 }
 
 textarea {
@@ -49,14 +53,10 @@ textarea {
     width: 200px; 
 }
 
-.font-option {
-    padding: 10px;
-    text-decoration: none;
-    display: block;
-    color: #333;
-}
 li:hover{
-    border: 5px solid red;
+    border: 2px solid red;
+    background-color: #ccc;
+    cursor: cell;
 }
 .d1:hover ~ .decrypt {
     font-family: "move-1", serif; 
@@ -243,4 +243,24 @@ li:hover{
 
 textarea::placeholder {
     font-family: "normal", serif;
+}
+
+.encode, .decrypt { 
+    font-family: "normal", serif;
+    font-size: large;
+    float: left; 
+    clear: left; 
+    margin-left: 10px; 
+    padding: 5px;
+    resize: none; 
+    border: 1px solid #ccc;
+    width: 200px; 
+    border-radius: 5px;
+}
+
+.text-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
