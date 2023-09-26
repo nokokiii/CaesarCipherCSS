@@ -1,17 +1,111 @@
 @font-face {
   font-family: "normal";
-  src: url("./Modeggv4-normal.otf") format("opentype");
+  src: url("fonts/Modeggv4-normal.otf") format("opentype");
 }
 
 @font-face {
     font-family: "move-1";
-    src: url("./Modeggv4-normal(1).otf") format("opentype");
+    src: url("fonts/Modeggv4-normal(1).otf") format("opentype");
 }
-
-textarea {
-    font-family: "normal", serif;
+@font-face {
+    font-family: "move-2";
+    src: url("fonts/Modeggy4-normal(2).otf") format("opentype");
 }
-
+@font-face {
+    font-family: "move-3";
+    src: url("fonts/Modeggy4-normal(3).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-4";
+    src: url("fonts/Modeggy4-normal(4).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-5";
+    src: url("fonts/Modeggy4-normal(5).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-6";
+    src: url("fonts/Modeggy4-normal(6).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-7";
+    src: url("fonts/Modeggy4-normal(7).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-8";
+    src: url("fonts/Modeggy4-normal(8).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-9";
+    src: url("fonts/Modeggy4-normal(9).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-10";
+    src: url("fonts/Modeggy4-normal(10).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-11";
+    src: url("fonts/Modeggy4-normal(11).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-12";
+    src: url("fonts/Modeggy4-normal(12).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-13";
+    src: url("fonts/Modeggy4-normal(13).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-14";
+    src: url("fonts/Modeggy4-normal(14).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-15";
+    src: url("fonts/Modeggy4-normal(15).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-16";
+    src: url("fonts/Modeggy4-normal(16).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-17";
+    src: url("fonts/Modeggy4-normal(17).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-18";
+    src: url("fonts/Modeggy4-normal(18).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-19";
+    src: url("fonts/Modeggy4-normal(19).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-20";
+    src: url("fonts/Modeggy4-normal(20).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-21";
+    src: url("fonts/Modeggy4-normal(21).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-22";
+    src: url("fonts/Modeggy4-normal(22).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-23";
+    src: url("fonts/Modeggy4-normal(23).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-24";
+    src: url("fonts/Modeggy4-normal(24).otf") format("opentype");
+}
+@font-face {
+    font-family: "move-25";
+    src: url("fonts/Modeggy4-normal(25).otf") format("opentype");
+}
+h1{
+    font-family: normal, serif;
+}
 .dropdown {
     position: relative;
     display: flex;
@@ -43,7 +137,8 @@ textarea {
     padding: 5px;
     resize: none; 
     border: 1px solid #ccc;
-    width: 200px; 
+    width: 200px;
+    text-transform: uppercase;
 }
 .encode, .decrypt {
     font-family: "normal", serif;
@@ -56,6 +151,7 @@ textarea {
     border: 1px solid #ccc;
     width: 200px;
     border-radius: 5px;
+    letter-spacing: 5px;
 }
 
 .text-inputs {
@@ -66,6 +162,7 @@ textarea {
     align-items: center;
     margin: 200px;
     top: 90px;
+
 }
 
 input{
@@ -76,161 +173,163 @@ input:checked+label{
     background-color: #ccc;
 }
 #q-1:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-25, serif;
 }
 #q-1:checked~.text-inputs>label>.encode{
     font-family: move-1, serif;
 }
 #q-2:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-24, serif;
 }
 #q-2:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-2, serif;
 }
 #q-3:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-23, serif;
 }
 #q-3:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-3, serif;
 }
 #q-4:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-22, serif;
 }
 #q-4:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-4, serif;
 }
 #q-5:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-21, serif;
 }
 #q-5:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-5, serif;
 }
 #q-6:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-20, serif;
 }
 #q-6:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-6, serif;
 }
 #q-7:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-19, serif;
 }
 #q-7:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-7, serif;
 }
 #q-8:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-18, serif;
 }
 #q-8:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-8, serif;
 }
 #q-9:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-17, serif;
 }
 #q-9:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-9, serif;
 }
 #q-10:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-16, serif;
 }
 #q-10:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-10, serif;
 }
 #q-11:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-15, serif;
 }
 #q-11:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-11, serif;
 }
 #q-12:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-14, serif;
 }
 #q-12:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-12, serif;
 }
 #q-13:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-13, serif;
 }
 #q-13:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-13, serif;
 }
 #q-14:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-12, serif;
 }
 #q-14:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-14, serif;
 }
 #q-15:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-11, serif;
 }
 #q-15:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-15, serif;
 }
 #q-16:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-10, serif;
 }
 #q-16:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-16, serif;
 }
 #q-17:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-9, serif;
 }
 #q-17:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-17, serif;
 }
 #q-18:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-8, serif;
 }
 #q-18:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-18, serif;
 }
 #q-19:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-7, serif;
 }
 #q-19:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-19, serif;
 }
 #q-20:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-6, serif;
 }
 #q-20:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-20, serif;
 }
 #q-21:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-5, serif;
 }
 #q-21:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-21, serif;
 }
 #q-22:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-4, serif;
 }
 #q-22:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-22, serif;
 }
 #q-23:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-3, serif;
 }
 #q-23:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-23, serif;
 }
 #q-24:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: move-2, serif;
 }
 #q-24:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-24, serif;
 }
 #q-25:checked~.text-inputs>label>.decrypt{
     font-family: move-1, serif;
 }
 #q-25:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: move-25, serif;
 }
 #q-26:checked~.text-inputs>label>.decrypt{
-    font-family: move-1, serif;
+    font-family: normal, serif;
 }
 #q-26:checked~.text-inputs>label>.encode{
-    font-family: move-1, serif;
+    font-family: normal, serif;
 }
 textarea::placeholder{
     font-family: normal, serif;
+    letter-spacing: normal;
+    text-transform: none;
 }
