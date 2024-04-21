@@ -1,8 +1,8 @@
 # Caesar-Cipher-CSS
-Cesear cipher in CSS and HTML
+Cesear cipher in CSS. HTML is only used to display
 
 ## How it works
-Our cipher works based on fonts
+We use fonts to visually encrypt plaintext
 
 ## Authors
 - [nokokiii](https://github.com/nokokiii)
